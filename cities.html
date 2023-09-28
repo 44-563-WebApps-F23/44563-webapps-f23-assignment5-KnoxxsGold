@@ -15,6 +15,23 @@
 <body>
     <!--N E L S O N-->
     <!--Nashville, Ely, Lehigh, Soiux City, Ottumwa, Norwalk-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand">A Few Cities</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="basic.html">Basic</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="advanced.html">Advanced</a>
+        </li>
+      </ul> 
+    </div>
+  </nav>
+
   <div class=" container">
   <div class="row">
   <div class="col-sm-2">N</div>
@@ -116,5 +133,39 @@
     <button type="button" class="btn btn-danger">N</button>
   </div>
 </div>
+
+
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+    Links to Bootstraps
+  </button>
+  <div class="dropdown">
+    <ul class="dropdown menu">
+      <li><a class="dropdown-item" href="basic.html">Basic</a></li>
+      <li><a class="dropdown-item" href="advanced.html">Advanced</a></li>
+    </ul>
+  </div>
+</div>
+
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1" class="form-label">Email Address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+    <label for="city" class="form-label">Enter your city</label>
+    <input type="city" class="form-control" id="city" aria-describedby="cityHelp">
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+    <label class="form-check-label" for="flexCheckDefault">
+      Sing up for newsletter?
+    </label>
+  </div>
+  <button class="bton btn-primary" type="button">
+    Submit
+  </button>
+</form>
+
 </body>
+
 </html>
